@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BossController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return "welcome";
 });
 
 Route::get('/bosses', [BossController::class, 'index']);
